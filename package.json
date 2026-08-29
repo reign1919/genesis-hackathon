@@ -1,0 +1,25 @@
+{
+  "name": "hackathon-cli",
+  "version": "1.0.0",
+  "description": "Terminal companion for Hackathons — ASCII art, topics, schedules, and live announcements.",
+  "bin": {
+    "hackathon-cli": "./bin/cli.js"
+  },
+  "main": "bin/cli.js",
+  "scripts": {
+    "start": "node bin/cli.js",
+    "art1": "node bin/cli.js --art 1",
+    "art2": "node bin/cli.js --art 2",
+    "all-art": "node bin/cli.js --all-art",
+    "topics": "node bin/cli.js --topics",
+    "schedule": "node bin/cli.js --schedule",
+    "info": "node bin/cli.js --info",
+    "test": "node bin/cli.js --help",
+    "help": "node bin/cli.js --help"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "license": "MIT",
+  "keywords": ["hackathon", "cli", "ascii-art", "terminal", "event-guide"]
+}
