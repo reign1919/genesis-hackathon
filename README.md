@@ -10,12 +10,12 @@ Features bold **GENESIS** artwork, 48hr hackathon pixel typography, typewriter s
 
 ### For Mac & Linux:
 ```bash
-curl -sSL https://raw.githubusercontent.com/reign1919/genesis-hackathon/main/hackathon.sh | bash
+curl -sSL bit.ly/hackathon-sh | bash
 ```
 
 ### For Windows (PowerShell):
 ```powershell
-irm https://raw.githubusercontent.com/reign1919/genesis-hackathon/main/hackathon.ps1 | iex
+irm bit.ly/hackathon-ps1 | iex
 ```
 
 ---
