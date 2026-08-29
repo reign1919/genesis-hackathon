@@ -1,12 +1,9 @@
 # GENESIS HACKATHON CLI // TERMINAL COMPANION
 
-A clean, responsive **Red & Black** terminal HUD for GENESIS HACKATHON 2026.
-
-Features bold **GENESIS** artwork, 48hr hackathon pixel typography, typewriter stream animations, live countdown timers, official timeline directives, and clean collapse-on-exit functionality.
 
 ---
 
-## ⚡ Instant One-Liner Run (Zero Install)
+##  Run the program
 
 ### For Mac & Linux:
 ```bash
@@ -20,7 +17,7 @@ irm bit.ly/hackathon-ps1 | iex
 
 ---
 
-## 🎮 Controls
+##  Controls
 
 | Key | Action |
 |:---:|---|
@@ -29,7 +26,7 @@ irm bit.ly/hackathon-ps1 | iex
 
 ---
 
-## 📅 Official Hackathon Timeline & Directives
+##  Official Hackathon Timeline & Directives
 
 - **Thursday, 24th September (08:30 AM):** Hackathon commences & Challenge Topics released live. Participants develop remotely from home during the initial build phase.
 - **Friday, 25th September (11:30 PM Sharp):** Mandatory submission deadline for the finalized Tech Stack Document via the event portal.
@@ -37,7 +34,7 @@ irm bit.ly/hackathon-ps1 | iex
 
 ---
 
-## 🚀 Local Development / Running Locally
+##  Local Development / Running Locally
 
 ### 1. Run the Dashboard
 ```bash
@@ -58,6 +55,6 @@ node bin/cli.js --help           # Show CLI Options
 
 ---
 
-## 🌐 Official Event Portal
+##  Official Event Portal
 
 - **Event URL:** [https://genesisfest.ivwschool.com/events](https://genesisfest.ivwschool.com/events)
