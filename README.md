@@ -6,7 +6,21 @@ Features bold **GENESIS** artwork, 48hr hackathon pixel typography, typewriter s
 
 ---
 
-## ⚡ Controls
+## ⚡ Instant One-Liner Run (Zero Install)
+
+### For Mac & Linux:
+```bash
+curl -sSL https://raw.githubusercontent.com/reign1919/genesis-hackathon/main/hackathon.sh | bash
+```
+
+### For Windows (PowerShell):
+```powershell
+irm https://raw.githubusercontent.com/reign1919/genesis-hackathon/main/hackathon.ps1 | iex
+```
+
+---
+
+## 🎮 Controls
 
 | Key | Action |
 |:---:|---|
@@ -23,7 +37,7 @@ Features bold **GENESIS** artwork, 48hr hackathon pixel typography, typewriter s
 
 ---
 
-## 🚀 How to Run
+## 🚀 Local Development / Running Locally
 
 ### 1. Run the Dashboard
 ```bash
@@ -32,16 +46,7 @@ node bin/cli.js
 npm start
 ```
 
-### 2. Run Globally from any Terminal
-```bash
-npm link
-```
-Now type anywhere:
-```bash
-hackathon-cli
-```
-
-### 3. Direct Section Flags
+### 2. Direct Section Flags
 ```bash
 node bin/cli.js --quick          # Skip animation on launch
 node bin/cli.js --rubric         # Show Judging Rubric only
